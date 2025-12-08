@@ -4,22 +4,32 @@ body {
     font-family: Verdana, sans-serif;
     background: linear-gradient(#5d3f6a, black);
     color: white;
+    
+
+    display: flex;
+    flex-direction: column;
 }
 
+
 h1, h2 {
-    color: #f5e6f0;
+    color: #B895B3;
     text-align: center;
     font-size: 2em;
     padding-top: 20px;
 }
 
+h3{
+    color: white;
+    text-align: center;
+}
 
 #menyykiht {
-    float: left;
+    margin: 0 auto;
     background: white;
     padding: 15px;
     border-radius: 6px;
     border: 1px solid whitesmoke;
+    width: 500px;
 
 }
 #menyykiht a{
@@ -27,14 +37,17 @@ transition: 0.2s;
 color: lightpink;
 
 }
-
+#menyykiht  td{
+    color: #4A1E49;
+}
 #sisukiht {
-    float: left;
+    
     padding: 20px;
     border-radius: 6px;
     border: 1px solid whitesmoke;
-    width: 600px;
+    width: 300px;
     color: white;
+    margin: 0 auto;
 
 }
 
@@ -44,11 +57,17 @@ color: lightpink;
     border-radius: 8px;
     margin-top: 20px;
 }
-#sisukiht a {
+
+#sisukiht table a {
+    opacity: 0;   
     transition: 0.2s;
-    color: lightpink;
-    
+    display: inline-block;
 }
+
+#sisukiht tr:hover a {
+    opacity: 1;
+}
+
 
 div.card {
     background: #ffffff;
@@ -200,6 +219,7 @@ form input[type="submit"]:hover {
 .tooted_container {
     width: 90%;
     max-width: 1200px;
+    
 }
 
 
@@ -259,8 +279,7 @@ footer {
     color: #5d3f6a;
     padding: 20px;
     text-align: center;
-    margin-top: 40px;
-    border-radius: 0;с
+    margin-top: auto;
 }
 
 
