@@ -22,6 +22,23 @@ global $yhendus
         Pakume kvaliteetseid tooteid taskukohaste hindadega ja oleme alati valmis aitama.
     </p>
 </div>
+<div class="services-container">
+  <section class="service-block">
+    <h3>Sülearvutid</h3>
+    <p>Laia valik kaasaskantavaid ja võimsaid sülearvuteid, mis sobivad nii tööks kui meelelahutuseks.</p>
+  </section>
+
+  <section class="service-block">
+    <h3>Lauaarvutid</h3>
+    <p>Jõulised lauaarvutid professionaalseteks projektideks ja mängimiseks.</p>
+  </section>
+
+  <section class="service-block">
+    <h3>Komponendid ja tarvikud</h3>
+    <p>Kvaliteetsed komponendid ja tarvikud, mis aitavad sul ehitada ja hooldada arvutit.</p>
+  </section>
+</div>
+
 
 <div class="tooted_block">
     <div class="tooted_container">
