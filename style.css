@@ -4,14 +4,17 @@ body {
     font-family: Verdana, sans-serif;
     background: linear-gradient(#5d3f6a, black);
     color: white;
-    display: flex;
+    
 
+    display: flex;
+    flex-direction: column;
 }
 
 
 h1, h2 {
     color: #B895B3;
     text-align: center;
+    font-size: 2em;
     padding-top: 20px;
 }
 
@@ -58,6 +61,7 @@ color: lightpink;
 #sisukiht table a {
     opacity: 0;   
     transition: 0.2s;
+    display: inline-block;
 }
 
 #sisukiht tr:hover a {
@@ -72,7 +76,6 @@ div.card {
     border-radius: 6px;
     padding: 15px;
     text-align: center;
-    transition: 0.2s;
 }
 
 
@@ -278,4 +281,43 @@ footer {
     margin-top: auto;
 }
 
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px auto;
+}
 
+.service-block {
+  background: #2c1f3a; 
+  color: #f5e6f0;     
+  border-radius: 12px;
+  padding: 25px 20px;  
+  width: 350px;      
+  min-height: 180px;   
+  text-align: center;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.service-block h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f5e6f0;
+}
+
+.service-block p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.service-block:hover {
+  transform: translateY(-5px);
+  background: #3a2a52;
+  cursor: pointer;
+}
